@@ -10,15 +10,15 @@ COPY package*.json ./
 # Install dependencies
 #RUN npm ci --legacy-peer-deps
 #RUN npm install --production
-RUN npm install -g
+RUN yarn install 
 
-RUN npm install -g prisma
+#RUN npm install -g prisma
 
 # Copy the rest of the application code
 COPY . .
 
 # Build the Next.js application
-RUN npm run build
+RUN yarn run build
 
 # Install MongoDB client
 RUN apk add --no-cache mongodb-tools
