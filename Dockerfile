@@ -23,9 +23,9 @@ RUN apk add --no-cache mongodb-tools
 EXPOSE 3000
 
 # Set the Prisma environment variables
-ENV DATABASE_URL="mongodb://mongodb:27017/my-database"
-ENV PRISMA_CLIENT_ENGINE_TYPE="binary"
+#ENV DATABASE_URL="mongodb://mongodb:27017/my-database"
+#ENV PRISMA_CLIENT_ENGINE_TYPE="binary"
 
 # Start the MongoDB service and the Next.js application
-CMD service mongodb start && npm start
+CMD service mongod start && npm start
 

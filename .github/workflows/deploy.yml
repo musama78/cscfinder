@@ -1,0 +1,66 @@
+MAPBOX_TOKENname: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-app:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+#      - name: Set up Node.js
+#        uses: actions/setup-node@v2
+#        with:
+#          node-version: 18
+
+#      - name: Install dependencies
+#        run: npm ci --legacy-peer-deps
+
+#      - name: Build Next.js app
+#        run: npm run build
+
+
+  build-docker:
+    needs: build-app
+
+    runs-on: self-hosted
+
+    steps:
+      - name: Log into Docker registry
+        run: docker login -u muhammadusama7 -p ${{ secrets.DOCKER_NEXTJS_APP }}
+
+      - name: Build Docker image
+        run: docker build -t muhammadusama7/cscfinder:latest .
+
+
+  deploy:
+    needs: build-docker
+
+    runs-on: self-hosted
+
+    steps:
+      - name: Deploy to Ubuntu server
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
+          NEXT_PUBLIC_HOME_URL: ${{ secrets.NEXT_PUBLIC_HOME_URL }}
+          NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
+          MAILER_TRANSPORT: ${{ secrets.MAILER_TRANSPORT }}
+          MAILER_USERNAME: ${{ secrets.MAILER_USERNAME }}
+          MAILER_PASSWORD: ${{ secrets.MAILER_PASSWORD }}
+        run: docker-compose -f docker-compose.yml up -d
+
+
+#  push-docker:
+#    needs: deploy
+
+#    runs-on: self-hosted
+
+#    steps:
+#      - name: Push Docker image
+#        run: docker push muhammadusama7/cscfinder:latest
