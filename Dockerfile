@@ -12,7 +12,7 @@ COPY package*.json ./
 #RUN npm install --production
 #RUN npm cache clean --force
 #RUN yarn cache clean
-RUN npm install 
+RUN npm install -g npm@9.8.0
 
 #RUN npm install -g prisma
 
