@@ -1,0 +1,479 @@
+[
+  {
+    "name": "Cannabis Social Club BietWeed Pforzheim / Enzkreis",
+    "street": "Marktpl.",
+    "zip": 75175,
+    "city": "Pforzheim",
+    "coords": [8.702914816284704,
+      48.890824806373956],
+    "logo": "http://csc-bietweed.de/wp-content/uploads/2023/04/cropped-logo1-60x69.png",
+    "image": "https://pbs.twimg.com/profile_banners/1646618547831857153/1681656236/1500x500",
+    "url": "http://csc-bietweed.de/",
+    "badges": [],
+    "socials": {
+      "facebook": "https://www.facebook.com/people/Cannabis-Social-Club-BietWeed/100091428485401/",
+      "twitter": "https://twitter.com/CSCBietweed"
+    },
+    "state": "baden-wuerttemberg"
+  },
+  {
+    "name": "Cannabis Social Club Baden-Württemberg",
+    "street": "Löwensteinstr. 27",
+    "zip": 74245,
+    "city": "Löwenstein",
+    "email": "info@csc-bw.de",
+    "state": "baden-wuerttemberg",
+    "coords": [
+      9.380950707119126,
+      49.09531736128355
+    ],
+    "info": "Als CSC BW steht für uns im Fokus, das Konzept CSC all jenen zugänglich zu machen, die sonst keine Option für sich in konventionellen Vereinsstrukturen sehen. Zweites Hauptziel ist die öffentliche Aufklärung über Cannabis als Heil-/Nutz- & Rauschpflanze",
+    "logo": "https://csc-bw.de/wp-content/uploads/2023/04/PNG_csc_bw_logo_neu_weisser_Hintergrund_NEU-300x300.png",
+    "image":"https://pbs.twimg.com/profile_banners/1490542673802969088/1678825541/1500x500",
+    "url": "https://csc-bw.de/",
+    "badges": ["in Gründung"],
+    "socials": {
+      "instagram": "https://www.instagram.com/csc_bw/",
+      "twitter": "https://twitter.com/CSCB_W",
+      "discord": "https://discord.com/invite/wj7mWxzw5p"
+    }
+  },
+  {
+    "name": "CSC Bruchsal",
+    "street": "Schloßraum 4",
+    "zip": 76646,
+    "state": "baden-wuerttemberg",
+    "coords": [
+      8.598017958295713,
+      49.124138638494344
+    ],
+    "badges": ["in Gründung"],
+    "image": "https://pbs.twimg.com/profile_banners/1638899957632577540/1681125438/1500x500",
+    "logo": "https://pbs.twimg.com/profile_images/1645391610429992961/fSzHVFmW_400x400.jpg",
+    "city": "Bruchsal",
+    "socials": {
+      "twitter": "https://twitter.com/CscBruchsal"
+    }
+  },
+  {
+    "name": "Cannabis Social Club Stuttgart e.V.",
+    "street": "Silcherstr. 11",
+    "zip": 71638,
+    "city": "Ludwigsburg",
+    "cityMembership": "stuttgart",
+    "state": "baden-wuerttemberg",
+    "coords": [
+      9.192182355517389,
+      48.88849889897
+    ],
+    "image": "https://pbs.twimg.com/profile_banners/776094250157109248/1570354947/1500x500",
+    "logo": "https://csc-stuttgart.org/wp-content/uploads/2019/10/csc-stuttgart-logo.png",
+    "email": "vorstand@csc-stuttgart.org",
+    "url": "csc-stuttgart.org",
+    "badges": [],
+    "socials": {
+      "instagram": "https://www.instagram.com/cscstuttgart/?hl=de",
+      "twitter": "https://twitter.com/csc_stuttgart",
+      "facebook": "https://www.facebook.com/CSCStuttgartDHVOrtsgruppe/"
+    }
+  },
+  {
+    "name": "Cannabis Social Club Nürnberg e. V.",
+    "street": "Vordere Sterngasse 15",
+    "zip": 90402,
+    "city": "Nürnberg",
+    "state": "bayern",
+    "email": "info@csc-nbg.de",
+    "coords": [
+      11.07838165895447,
+      49.44762050160847
+    ],
+    "badges": [],
+    "logo": "https://csc-nbg.de/wp-content/uploads/2020/01/cropped-favicon.png",
+    "url": "https://csc-nbg.de",
+    "socials": {
+      "facebook": "https://de-de.facebook.com/cscnbgeV/",
+      "telegram": "https://t.me/cannabissocialclubnbg",
+      "discord": "https://discord.com/invite/G6U5UuFAUm",
+      "instagram": "https://www.instagram.com/cannabis_social_club_nbg/"
+    }
+  },
+  {
+    "name": "Cannabis Social Club München",
+    "email": "verein@csc-muenchen.de",
+    "state": "bayern",
+    "cityMembership": "muenchen",
+    "logo": "https://usercontent.one/wp/csc-muenchen.de/wp-content/uploads/2023/05/Logo_Final-min.webp?media=1685227768",
+    "url": "https://csc-muenchen.de",
+    "image": "https://pbs.twimg.com/profile_banners/1633403361922895872/1685189311/1500x500",
+    "coords": [
+      11.577277822523655,
+      48.136557787581665
+    ],
+    "socials": {
+      "facebook": "https://csc-muenchen.de/facebook",
+      "twitter": "https://csc-muenchen.de/twitter",
+      "telegram": "https://csc-muenchen.de/telegram",
+      "tiktok": "https://csc-muenchen.de/tiktok",
+      "youtube": "https://csc-muenchen.de/youtube",
+      "rss": "https://csc-muenchen.de/feed"
+    }
+  },
+  {
+    "name": "Cannabis Social Club Bavaria",
+    "email": "bavaria@csc-one.de",
+    "street": "Gilchingerstr. 10",
+    "state": "bayern",
+    "cityMembership": "muenchen",
+    "logo": "https://bavaria-csc.de/wp-content/uploads/cropped-233ABEA9-69A5-4398-88B1-2481C2126F34.png",
+    "url": "https://bavaria-csc.de/",
+    "zip": 81245,
+    "city": "München",
+    "coords": [
+      11.451026848988306,
+      48.15685433749968
+    ],
+    "badges": ["in Gründung"],
+    "socials": {
+
+    }
+  },
+  {
+    "name": "Cannabis Social Club Berlin e.V.",
+    "description": "Der Cannabis Social Club Berlin e.V. (CSC Berlin e.V.) ist eine Interessengemeinschaft und Interessenvertretung von Cannabisnutzer*innen, deren Freund*innen und Angehörigen.",
+    "email": "info@csc.berlin",
+    "url": "https://csc.berlin",
+    "logo": "https://csc.berlin/wp-content/uploads/2019/10/cropped-logo_unfill_white_300_20k-web2.png",
+    "street": "Springborn Straße 38",
+    "zip": 10178,
+    "city": "Berlin",
+    "state": "berlin",
+    "cityMembership": "berlin",
+    "badges": [],
+    "coords": [
+      13.500466456725803,
+      52.43734416044177
+    ],
+    "socials": {
+      "instagram": "https://www.instagram.com/csc_berlin/",
+      "facebook": "https://www.facebook.com/CSCBerlin.eV/"
+    }
+  },
+  {
+    "name": "CSC High Ground",
+    "logo": "https://csc-highground.de/images/csc-high-ground-berlin-logo.png",
+    "url": "https://csc-highground.de/",
+    "image": "https://pbs.twimg.com/profile_banners/1544785281580240900/1658087072/1500x500",
+    "description": "Wir sind ein eingetragener Verein in Berlin mit dem Ziel, nach der Legalisierung die Mitglieder durch gemeinschaftlichen Eigenanbau mit Cannabis zu versorgen. Politik, Bildung und Verwaltung finden im CSC High Ground Berlin kompetente Ansprechpartner:innen für die Herausforderungen der laufenden Legalisierung von Cannabis. Unser Handeln orientiert sich an der ENCOD-Kampagne „Freedom to Farm“. Dadurch profitieren wir von der Erfahrung, die Cannabis Social Clubs (CSC) seit 2003 in Spanien, Belgien und den Niederlanden gesammelt haben. Wir streben eine demokratische Zusammenarbeit aller CSCs in Deutschland an.",
+    "email": "kontakt@csc-highground.de",
+    "street": "Mühlendamm 5",
+    "zip": 10178,
+    "city": "Berlin",
+    "state": "berlin",
+    "cityMembership": "berlin",
+    "coords": [
+      13.407738474868836,
+      52.515527000000304
+    ],
+    "badges": ["Aufnahmestopp"],
+    "socials": {
+      "twitter": "https://twitter.com/csc_highground",
+      "discord": "https://discord.com/invite/xCN4jJjj3S"
+    }
+  },
+  {
+    "name": "CSC WERDERHIGH",
+    "logo": "https://img1.wsimg.com/isteam/ip/7718e475-a9a5-4f75-8639-e4e6e707c4ef/werderhigh-high-resolution-logo-color-on-trans.svg/:/rs=h:200,cg:true,m/qt=q:95",
+    "url": "https://werderhigh.de/",
+    "description": "Moin, wir sind der CSC WERDERHIGH i.G. aus Bremen. Unser Verein ist Basisdemokratisch, niedrigschwellig und selbstorganisiert.Nach einer erfolgreichen legalisierung ist der Gemeinsame, unkommerzielle Eigenanbau im Verein geplant.",
+    "street": "Sielwall 28",
+    "zip": 28203,
+    "city": "Bremen",
+    "state": "bremen",
+    "cityMembership": "bremen",
+    "email": "werderhigh@gmx.de",
+    "coords": [
+      8.82379427636269,
+      53.07184582306451
+    ],
+    "badges": ["in Gründung"],
+    "socials": {
+      "twitter": "https://twitter.com/werderhigh",
+      "instagram": "https://www.instagram.com/cscwerderhigh/",
+      "facebook": "https://www.facebook.com/people/Csc-Werderhigh/pfbid0JrucVs6RM7qyJbfAD9mNMu5t64E58rykmM41S5MNBtuN1Bzdfy6RwRcNsEux9mJWl/"
+    }
+  },
+  {
+    "name": "Cannabis Social Club Hamburg e.V.",
+    "logo": "https://cannabis-social-club.hamburg/wp-content/uploads/2020/04/CSCHH_wordpress_header_logo_0202.png",
+    "url": "https://cannabis-social-club.hamburg/",
+    "image": "https://pbs.twimg.com/profile_banners/3312260711/1636368748/1500x500",
+    "email": "gerhold@cschh.de",
+    "street": "Kastanienallee 33",
+    "zip": 20539,
+    "city": "Hamburg",
+    "state": "hamburg",
+    "cityMembership": "hamburg",
+    "badges": [],
+    "coords": [
+      9.963379289228897,
+      53.54849245839503
+    ],
+    "socials": {
+      "instagram": "https://www.instagram.com/cannabissocialclub_hh/",
+      "twitter": "https://twitter.com/csc_fhh",
+      "facebook": "https://www.facebook.com/CSC.FHH/"
+    }
+  },
+  {
+    "name": "soChill Green",
+    "url": "https://sochill-green.de/",
+    "zip": 17493,
+    "city": "Greifswald",
+    "state": "mecklenburg-vorpommern",
+    "email": "info@sochill-green.de",
+    "phone": "01626592426",
+    "coords": [
+      13.442866944573552,
+      54.0878625347587
+    ],
+    "logo": "https://sochill-green.de/wp-content/uploads/2022/01/cropped-vector-file-weiss1.png",
+    "description": "Wir sind der erste Cannabis Social Club in Greifswald-Vorpommern. Wir möchten den Anbau, die Weiterverarbeitung und letztendlich auch den Konsum in die eigenen Hände nehmen.",
+    "badges": ["in Gründung"],
+    "socials": {
+      "instagram": "https://www.instagram.com/sochillgreen_csc/",
+      "whatsApp": "https://api.whatsapp.com/send?text=https://sochill-green.de/impressum/"
+    }
+  },
+  {
+    "name": "Cannabis Socialclub Hannover e.V.",
+    "url": "https://csc-h.de/",
+    "state": "niedersachsen",
+    "logo": "https://csc-h.de/images/logo_sehrklein.png#joomlaImage://local-images/logo_sehrklein.png?width=300&height=235",
+    "email": "info@CSC-H.de",
+    "badges": [],
+    "coords": [
+      9.73853162161501,
+      52.37447433516533
+    ],
+    "description": "Der Cannabis Socialclub Hannover e.V. ist ein Zusammenschluss konsummündiger Erwachsener mit dem Ziel für die Bevölkerung den legalen Zugang zu der Pflanze Hanf zu Konsumzwecken zu ermöglichen.",
+    "socials": {
+      "facebook": "https://www.facebook.com/cscminush.de",
+      "youtube": "https://www.youtube.com/channel/UCBwd6ATFef8Fz6BK0lvOYOQ"
+    }
+  },
+  {
+    "name": "Cannabis Social Club Oldenburg",
+    "logo": "https://pbs.twimg.com/profile_images/1588651597617324042/k1CThPN3_400x400.jpg",
+    "image": "https://pbs.twimg.com/profile_banners/2581032163/1417123534/1500x500",
+    "state": "niedersachsen",
+    "coords": [
+      8.216309801366066,
+      53.137420853602976
+    ],
+    "badges": ["in Gründung"],
+    "socials": {
+      "facebook": "https://www.facebook.com/CSCOldenburg/",
+      "twitter": "https://twitter.com/CSCOldenburg",
+      "instagram": "https://www.instagram.com/cscoldenburg/"
+    }
+  },
+  {
+    "name": "CSC-Niedersachsen",
+    "url": "https://csc-niedersachsen.de/",
+    "state": "niedersachsen",
+    "image": "https://pbs.twimg.com/profile_banners/1649023234279440384/1682380084/1500x500",
+    "logo": "https://csc-niedersachsen.de/wp-content/uploads/2023/05/logo-1.png",
+    "email": "info@csc-niedersachsen.de",
+    "tel": "015737793998",
+    "badges": ["in Gründung"],
+    "street": "Feldhauser Straße 48",
+    "zip": 26419,
+    "city": "Schortens",
+    "coords": [
+      7.956085424413573,
+      53.54758467594601
+    ],
+    "socials": {
+      "instagram": "https://www.instagram.com/csc_niedersachsen/?igshid=ZDdkNTZiNTM%3D",
+      "twitter": "https://twitter.com/NI_CSC"
+    }
+  },
+  {
+  "name": "Herby´s Cannabis Social Club",
+    "state": "niedersachsen",
+    "url": "https://www.herbys-farm.de/about-5",
+  "logo": "https://static.wixstatic.com/media/5743aa_5823a94b23e5451db4c24979ab3f7d26~mv2.png/v1/fill/w_974,h_978,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Herbys_Social_Club_Beige_PNG.png",
+  "street": "Am Markt 18",
+  "zip": 31224,
+  "badges": [],
+  "city": "Peine",
+  "email": "info@herbys-hemp-farm.de",
+  "coords":[
+    10.226448030472739,
+    52.32343484611948
+  ]
+},
+  {
+    "name": "Cannabis Social Club Bochum",
+    "state": "nordrhein-westfalen",
+    "image": "https://pbs.twimg.com/profile_banners/1546485434347388930/1657548123/1500x500",
+    "logo": "https://pbs.twimg.com/profile_images/1546489246634090498/L3EqWaG-_400x400.jpg",
+    "coords": [
+      7.21597976344043,
+      51.481876049412335
+    ],
+    "socials": {
+      "twitter": "https://twitter.com/csc_bochum"
+    }
+  },
+  {
+    "name": "CANNABIS SOCIAL CLUB BONN",
+    "email": "info@socialclub-bonn.de",
+    "logo": "https://socialclub-bonn.de/wp-content/uploads/2023/04/cropped-marijuana-g75dd28b58_1280.png",
+    "state": "nordrhein-westfalen",
+    "url": "https://socialclub-bonn.de/",
+    "badges": ["in Gründung"],
+    "street": "Paracelsusstrasse 84",
+    "zip": 53177,
+    "city": "Bonn",
+    "coords":  [
+      7.169702851155392,
+      50.6675278210287
+    ]
+  },
+  {
+    "name": "Cannabis Social Club Düsseldorf",
+    "state": "nordrhein-westfalen",
+    "url": "https://www.csc-duesseldorf.org/",
+    "logo": "https://www.csc-duesseldorf.org/wp-content/uploads/2023/04/csc_logo_start@2x.png",
+    "description": "Wir sind eine Gemeinschaft von Cannabis-Enthusiasten, die sich für die Legalisierung von Cannabis und des privaten, sowie gemeinschaftlichen, Anbaus einsetzt. Unser Verein ist eine offene und inklusive Plattform für alle, die sich für Cannabis interessieren und sich mit Gleichgesinnten vernetzen möchten.",
+    "street": "Holzbüttgener Str. 12a",
+    "zip": 41462,
+    "city": "Neuss",
+    "badges": ["in Gründung"],
+    "email": "info@csc-duesseldorf.org",
+    "coords": [
+      6.650847372527693,
+      51.20879312758956
+    ]
+  },
+  {
+    "name": "Cannabis Social Club Münsterland",
+    "state": "nordrhein-westfalen",
+    "badges": ["in Gründung"],
+    "image": "https://pbs.twimg.com/profile_banners/1638094179786977281/1679403875/1500x500",
+    "logo": "https://pbs.twimg.com/profile_images/1638094486453514240/uajLRScm_400x400.jpg",
+    "coords": [
+      7.627077573315489,
+      51.962456273554636
+    ],
+    "socials": {
+      "twitter": "https://twitter.com/CSCMuensterland"
+    }
+  },
+  {
+    "name": "High Society Association",
+    "url": "https://www.highsocietyclub.de/",
+    "state": "rheinland-pfalz",
+    "logo": "https://static.wixstatic.com/media/a7ea7b_25ece5379b0b4e7d99ab7671e92349bf~mv2.jpg/v1/fill/w_356,h_318,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Final_edited.jpg",
+    "email": "highsociety.csc.mainz@gmail.com",
+    "tel": "061316064113",
+    "badges": ["in Gründung"],
+    "coords": [
+      8.259842771467675,
+      50.011876809983846
+    ],
+    "socials": {
+      "instagram": "https://www.instagram.com/csc.mainz/?igshid=YmMyMTA2M2Y%3D"
+    }
+  },
+  {
+    "name": "Cannabis Social Club Leipzig",
+    "logo": "https://static.wixstatic.com/media/f5ad12_66bb728b3019483abcec6e079c9ac5bf~mv2.png/v1/fill/w_370,h_382,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f5ad12_66bb728b3019483abcec6e079c9ac5bf~mv2.png",
+    "cityMembership": "leipzig",
+    "state": "sachsen",
+    "url": "https://www.csc-leipzig.org/",
+    "tel": "017697776430",
+    "email": "csc-leipzig@protonmail.com",
+    "coords": [
+      12.374905534301746,
+      51.34077077334868
+    ],
+    "badges": ["in Gründung"],
+    "socials": {
+      "discord": "https://discord.com/invite/3KZZ22Vb4M",
+      "instagram": "https://www.instagram.com/cscleipzig/",
+      "twitter": "https://twitter.com/CSC_Leipzig"
+    }
+  },
+  {
+    "name": "CSC Kiel e.V.",
+    "url": "https://csc-kiel.de/",
+    "logo": "https://csc-kiel.de/wp-content/uploads/2022/12/CSC-Sticker-Logo-Entwurf_20230413132038-e1681386142409-223x300.png",
+    "image": "https://pbs.twimg.com/profile_banners/1511277534083788801/1673735248/1500x500",
+    "street": "Bertha-von-Suttner-Straße 1",
+    "zip": 24119,
+    "state": "schleswig-holstein",
+    "badges": [],
+    "city": "Kronshagen",
+    "coords": [
+      10.092741288357558,
+      54.34253774575271
+    ],
+    "email": "moin@csc-kiel.de",
+    "socials": {
+      "facebook": "https://www.facebook.com/people/Csc-Kiel/pfbid0ueM1cWg1H27ouaHGQXv6LB3gEC9mNufnW3gA2GcpBKAEXVwSv9eupCbXfSMVLFfkl/",
+      "twitter": "https://twitter.com/CSC_Kiel",
+      "instagram": "https://www.instagram.com/csc.kiel/"
+    }
+  },
+  {
+    "name": "CSC Lübeck e.V.",
+    "url": "https://csc-hl.de",
+    "image": "https://pbs.twimg.com/profile_banners/1588278777527902219/1667511222/1500x500",
+    "logo": "https://csc-hl.de/wp-content/uploads/luebecker-logo.png",
+    "street": "Stettiner Str 43",
+    "zip": 23558,
+    "state": "schleswig-holstein",
+    "city": "Lübeck",
+    "phone": "017623570208",
+    "email": "Vosi@csc-hl.de",
+    "badges": [],
+    "coords":  [
+      10.663435321836403,
+      53.855568024238096
+    ],
+    "socials": {
+      "twitter": "https://twitter.com/CSCLuebeck/",
+      "discord": "https://discord.com/invite/cqYaBWn3b9",
+      "facebook": "https://www.facebook.com/people/CSC-L%C3%BCbeck/100087613533911/"
+    }
+  },
+  {
+    "name": "Cannabis Social Club Nordhausen",
+    "logo": "https://pbs.twimg.com/profile_images/1638821839920062464/QyIKzEwC_400x400.jpg",
+    "image": "https://pbs.twimg.com/profile_banners/1638662456959553539/1679535451/1500x500",
+    "badges": ["in Gründung"],
+    "state": "thueringen",
+    "coords": [
+      10.794179961307634,
+      51.50186898404232
+    ],
+    "socials": {
+      "twitter": "https://twitter.com/CSCNordhausen"
+    }
+  },
+  {
+    "name": "Cannabis Social Club Weimar",
+    "email": "kontakt@csc-weimar.org",
+    "logo": "https://csc-weimar.org/csc/gfx/2023-04-29-LogoLion_WaT.png",
+    "url": "https://csc-weimar.org/",
+    "state": "thueringen",
+    "badges": [],
+    "coords": [
+      11.330358084132826,
+      50.981225617135834
+    ]
+  }
+]

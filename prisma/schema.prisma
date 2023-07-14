@@ -1,0 +1,50 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model CSC {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  slug           String   @unique
+  name           String
+  description    String?
+  street         String?
+  zip            Int?
+  city           String?
+  logoURL        String
+  bgImgURL       String?
+  url            String?
+  email          String?
+  tel            String?
+  coords         Float[]
+  facebook       String?
+  twitter        String?
+  discord        String?
+  instagram      String?
+  telegram       String?
+  rss            String?
+  youtube        String?
+  tiktok         String?
+  mastodon       String?
+  snapchat       String?
+  twitch         String?
+  whatsApp       String?
+  cityMembership String?
+  state          String?
+  badgeIds       String[] @db.ObjectId
+  badges         Badge[]  @relation(fields: [badgeIds], references: [id])
+}
+
+model Badge {
+  id     String   @id @default(auto()) @map("_id") @db.ObjectId
+  name   String
+  cscIds String[] @db.ObjectId
+  cscs   CSC[]    @relation(fields: [cscIds], references: [id])
+}
