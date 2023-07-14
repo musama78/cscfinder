@@ -10,6 +10,8 @@ COPY package*.json ./
 # Install dependencies
 #RUN npm ci --legacy-peer-deps
 #RUN npm install --production
+RUN npm cache clean --force
+RUN yarn cache clean
 RUN yarn install 
 
 #RUN npm install -g prisma

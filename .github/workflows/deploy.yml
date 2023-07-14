@@ -35,7 +35,9 @@ jobs:
         run: docker login -u muhammadusama7 -p ${{ secrets.DOCKER_LOGIN_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t muhammadusama7/cscfinder:latest .
+        run: |
+          ls -al
+          docker build -t muhammadusama7/cscfinder:latest .
 
 
   deploy:
