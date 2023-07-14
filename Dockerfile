@@ -10,7 +10,7 @@ COPY package*.json ./
 # Install dependencies
 #RUN npm ci --legacy-peer-deps
 #RUN npm install --production
-RUN npm install
+RUN npm install -g
 
 # Copy the rest of the application code
 COPY . .
