@@ -4,8 +4,13 @@ FROM node:16-alpine
 # Set the working directory inside the container
 WORKDIR /app
 
+ARG DATABASE_URL
+
+ENV DATABASE_URL
+
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
+
 
 # Install dependencies
 #RUN npm ci --legacy-peer-deps
@@ -33,5 +38,6 @@ EXPOSE 3000
 #ENV PRISMA_CLIENT_ENGINE_TYPE="binary"
 
 # Start the MongoDB service and the Next.js application
-CMD service mongod start && npm start
+#CMD service mongod start && npm start
+CMD ["npm", "run", "start"]
 
