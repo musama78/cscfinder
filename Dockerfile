@@ -12,6 +12,8 @@ COPY package*.json ./
 #RUN npm install --production
 RUN npm install -g
 
+RUN npm install -g prisma
+
 # Copy the rest of the application code
 COPY . .
 
