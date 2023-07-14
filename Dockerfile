@@ -14,7 +14,7 @@ COPY package*.json ./
 #RUN yarn cache clean
 RUN npm install -g npm@9.8.0
 
-#RUN npm install -g prisma
+RUN npm install -g prisma
 
 # Copy the rest of the application code
 COPY . .
