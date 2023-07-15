@@ -46,14 +46,13 @@ jobs:
       - name: Build Docker image
         run: |
           pwd
-          echo "********************************************---1"
-          echo $DATABASE_URL
-          echo "********************************************---1"
-          docker build --build-arg DATABASE_URL=$DATABASE_URL -t muhammadusama7/cscfinder:latest .
-          echo "********************************************---2"
-          echo $DATABASE_URL
-          echo "********************************************---2"
-
+#          docker build --build-arg DATABASE_URL=$DATABASE_URL -t muhammadusama7/cscfinder:latest .
+          docker build \
+            --build-arg DATABASE_URL=$DATABASE_URL \
+            --build-arg NEXTAUTH_URL=$NEXTAUTH_URL \
+            --build-arg NEXT_PUBLIC_HOME_URL=$NEXT_PUBLIC_HOME_URL \
+            --build-arg NEXTAUTH_SECRET=$NEXTAUTH_SECRET \
+          -t muhammadusama7/cscfinder:latest .
 
   deploy:
     needs: build-docker

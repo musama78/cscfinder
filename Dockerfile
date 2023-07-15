@@ -5,8 +5,14 @@ FROM node:16-alpine
 WORKDIR /app
 
 ARG DATABASE_URL
+ARG NEXTAUTH_URL
+ARG NEXT_PUBLIC_HOME_URL
+ARG NEXTAUTH_SECRET
 
 ENV DATABASE_URL=$DATABASE_URL
+ENV DATABASE_URL=$DATABASE_URL
+ENV NEXT_PUBLIC_HOME_URL=$NEXT_PUBLIC_HOME_URL
+ENV NEXTAUTH_SECRET=$NEXTAUTH_SECRET
 
 RUN echo "****************************************---------1"
 RUN echo $DATABASE_URL
@@ -36,11 +42,6 @@ RUN apk add --no-cache mongodb-tools
 
 # Expose the necessary port (replace 3000 with the appropriate port for Next.js)
 EXPOSE 3000
-
-
-RUN echo "****************************************---------2"
-RUN echo $DATABASE_URL
-RUN echo "****************************************---------2"
 
 # Set the Prisma environment variables
 #ENV DATABASE_URL="mongodb://mongodb:27017/my-database"
