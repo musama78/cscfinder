@@ -9,8 +9,8 @@ services:
 #    volumes:
 #      - .:/app
 # from build server
-#    environment:
-#      - MONGODB_URL=mongodb://admin:admin@mongodb:27017/mydb
+    environment:
+      - DATABASE_URL=mongodb://myadmin:myadmin@mongodb:27017/mydb
 
   mongodb:
     image: mongo

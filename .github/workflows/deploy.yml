@@ -75,11 +75,10 @@ jobs:
         run: docker-compose -f docker-compose.yml up -d
 
 
-#  push-docker:
-#    needs: deploy
+  push-docker:
+    needs: deploy
 
-#    runs-on: self-hosted
-
-#    steps:
-#      - name: Push Docker image
-#        run: docker push muhammadusama7/cscfinder:latest
+    runs-on: self-hosted
+    steps:
+      - name: Push Docker image
+        run: docker push muhammadusama7/cscfinder:latest
