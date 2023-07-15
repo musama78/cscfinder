@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  DATABASE_URL: ${{ secrets.DATABASE_URL }}
+  DATABASE_URL: ${{ vars.DATABASE_URL }}
   NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
   NEXT_PUBLIC_HOME_URL: ${{ secrets.NEXT_PUBLIC_HOME_URL }}
   NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
