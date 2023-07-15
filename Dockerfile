@@ -6,7 +6,7 @@ WORKDIR /app
 
 ARG DATABASE_URL
 
-ENV DATABASE_URL
+ENV DATABASE_URL=$DATABASE_URL
 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
