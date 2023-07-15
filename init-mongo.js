@@ -1,3 +1,4 @@
+print("***************** Initializing MongoDB container *****************");
 db = db.getSiblingDB(process.env.MONGO_INITDB_DATABASE);
 db.createUser({
   user: process.env.MONGO_INITDB_ROOT_USERNAME,
@@ -7,3 +8,4 @@ db.createUser({
   ]
 });
 
+print("***************** MongoDB container Initialization Complete *****************");
