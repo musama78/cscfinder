@@ -15,10 +15,10 @@ services:
   mongodb:
     image: mongo
     restart: always
-#    environment:
-#      MONGO_INITDB_ROOT_USERNAME: myadmin
-#      MONGO_INITDB_ROOT_PASSWORD: myadmin
-#      MONGO_INITDB_DATABASE: mydb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGO_INITDB_ROOT_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+      MONGO_INITDB_DATABASE: ${{ secrets.MONGODB_DATABASE }}
     volumes:
       - mongodb_data:/data/db
       - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
