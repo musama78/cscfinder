@@ -46,8 +46,13 @@ jobs:
       - name: Build Docker image
         run: |
           pwd
-          echo "********************************************"
+          echo "********************************************---1"
+          echo $DATABASE_URL
+          echo "********************************************---1"
           docker build --build-arg DATABASE_URL=$DATABASE_URL -t muhammadusama7/cscfinder:latest .
+          echo "********************************************---2"
+          echo $DATABASE_URL
+          echo "********************************************---2"
 
 
   deploy:

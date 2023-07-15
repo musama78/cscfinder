@@ -8,6 +8,10 @@ ARG DATABASE_URL
 
 ENV DATABASE_URL=$DATABASE_URL
 
+RUN echo "****************************************---------1"
+RUN echo $DATABASE_URL
+RUN echo "****************************************---------1"
+
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
@@ -32,6 +36,11 @@ RUN apk add --no-cache mongodb-tools
 
 # Expose the necessary port (replace 3000 with the appropriate port for Next.js)
 EXPOSE 3000
+
+
+RUN echo "****************************************---------2"
+RUN echo $DATABASE_URL
+RUN echo "****************************************---------2"
 
 # Set the Prisma environment variables
 #ENV DATABASE_URL="mongodb://mongodb:27017/my-database"
