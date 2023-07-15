@@ -1,7 +1,7 @@
 version: "3"
 services:
   nextjs:
-    image: muhammadusama7/nextjs-app:latest
+    image: muhammadusama7/cscfinder:latest
     ports:
       - 3000:3000
     depends_on:
