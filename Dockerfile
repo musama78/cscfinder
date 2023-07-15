@@ -10,13 +10,13 @@ ARG NEXT_PUBLIC_HOME_URL
 ARG NEXTAUTH_SECRET
 
 ENV DATABASE_URL=$DATABASE_URL
-ENV DATABASE_URL=$DATABASE_URL
+ENV NEXTAUTH_URL=$NEXTAUTH_URL
 ENV NEXT_PUBLIC_HOME_URL=$NEXT_PUBLIC_HOME_URL
 ENV NEXTAUTH_SECRET=$NEXTAUTH_SECRET
 
-RUN echo "****************************************---------1"
-RUN echo $DATABASE_URL
-RUN echo "****************************************---------1"
+#RUN echo "****************************************---------1"
+#RUN echo $DATABASE_URL
+#RUN echo "****************************************---------1"
 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
