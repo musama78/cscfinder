@@ -73,7 +73,8 @@ jobs:
 #          MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
 #          MONGODB_DATABASE: ${{ secrets.MONGODB_DATABASE }}
         run: |
-          docker-compose -f docker-compose.yml up -d
+          MONGODB_USERNAME=myadmin MONGODB_PASSWORD=myadmin MONGODB_DATABASE=mydb docker-compose up -d
+#          docker-compose -f docker-compose.yml up -d
 #          MONGODB_USERNAME=$MONGODB_USERNAME MONGODB_PASSWORD=$MONGODB_PASSWORD MONGODB_DATABASE=$MONGODB_DATABASE docker-compose up -d
 
 
