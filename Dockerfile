@@ -31,6 +31,8 @@ RUN npm install -g npm@9.8.0
 
 RUN npm install -g prisma
 
+RUN npm run prisma:generate
+
 # Copy the rest of the application code
 COPY . .
 
