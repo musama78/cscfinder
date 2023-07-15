@@ -6,6 +6,9 @@ on:
       - master
 
 env:
+  MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+  MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+  MONGODB_DATABASE: ${{ secrets.MONGODB_DATABASE }}
   DATABASE_URL: ${{ secrets.DATABASE_URL }}
   NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
   NEXT_PUBLIC_HOME_URL: ${{ secrets.NEXT_PUBLIC_HOME_URL }}
@@ -13,6 +16,7 @@ env:
   MAILER_TRANSPORT: ${{ secrets.MAILER_TRANSPORT }}
   MAILER_USERNAME: ${{ secrets.MAILER_USERNAME }}
   MAILER_PASSWORD: ${{ secrets.MAILER_PASSWORD }}
+
 
 jobs:
   build-app:
@@ -64,10 +68,10 @@ jobs:
 
     steps:
       - name: Deploy to Ubuntu server
-        env:
-          MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
-          MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
-          MONGODB_DATABASE: ${{ secrets.MONGODB_DATABASE }}
+#        env:
+#          MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+#          MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+#          MONGODB_DATABASE: ${{ secrets.MONGODB_DATABASE }}
         run: |
 #          docker-compose -f docker-compose.yml up -d
           MONGODB_USERNAME=$MONGODB_USERNAME MONGODB_PASSWORD=$MONGODB_PASSWORD MONGODB_DATABASE=$MONGODB_DATABASE docker-compose up -d
