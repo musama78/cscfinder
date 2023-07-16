@@ -19,11 +19,13 @@ print("***************** Initializing MongoDB container *****************");
 #});
 #############
 ############
+const conn = new Mongo();
+const db = conn.getDB(process.env.MONGODB_DATABASE);
 const myusername = process.env.MONGODB_USERNAME;
 const mypassword = process.env.MONGODB_PASSWORD;
 const mydatabase = process.env.MONGODB_DATABASE;
 
-db.getSiblingDB(databaseName).createUser({
+db.getSiblingDB(mydatabase).createUser({
   user: myusername,
   pwd: mypassword,
   roles: [
