@@ -11,7 +11,7 @@ export default function Content(props: ContentProps) {
       }`}
     >
       <h1 className="font-bold text-2xl mt-12">
-        Hello..Entdecke die besten Cannabis Social Clubs in deiner Nähe!
+        Entdecke die besten Cannabis Social Clubs in deiner Nähe!
       </h1>
       <p>
         Suchst du nach einem sicheren und legalen Ort, um deinen Cannabisbedarf
