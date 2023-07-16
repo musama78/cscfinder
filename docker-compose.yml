@@ -26,7 +26,7 @@ services:
       - ${COMPOSE_ENV_FILE}
 
     volumes:
-      - mongodb_data:/data/db
+#      - mongodb_data:/data/db
       - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
     ports:
       - 27017:27017
