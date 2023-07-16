@@ -118,7 +118,7 @@ export default function Search(props: EntriesProps) {
   return (
     <div>
       <h1 className="text-2xl mb-5">
-        Wir haben Deutschlands schönste Cannabis Social Clubs
+        hello from container...Wir haben Deutschlands schönste Cannabis Social Clubs
       </h1>
       <div className="flex">
         <form onSubmit={handleSearchPosition} className="w-full">
