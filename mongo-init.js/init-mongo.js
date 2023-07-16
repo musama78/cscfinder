@@ -9,8 +9,8 @@ print("***************** Initializing MongoDB container *****************");
 #});
 db = db.getSiblingDB(MONGODB_DATABASE);
 db.createUser({
-  user: MONGODB_USERNAME,
-  pwd: MONGODB_PASSWORD,
+  user: env.MONGODB_USERNAME,
+  pwd: env.MONGODB_PASSWORD,
   roles: [
     { role: 'readWrite', db: MONGODB_DATABASE }
   ]
