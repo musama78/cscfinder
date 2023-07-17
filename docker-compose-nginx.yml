@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+
+  nginx:
+    container_name: nginx-con
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx-conf:/etc/nginx/conf.d
+    networks:
+      - appnet
+    restart: always
+
+#volumes:
+#  nginx-conf:
+
+networks:
+  appnet:
+

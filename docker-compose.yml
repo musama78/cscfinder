@@ -1,25 +1,33 @@
 version: "3"
 services:
-  nextjs:
+  nextjsapp:
+    container_name: nextjsapp-con
     image: muhammadusama7/cscfinder:latest
     ports:
-      - 3000:3000
+      - 127.0.0.1:3000:3000
     depends_on:
       - mongodb
 #    volumes:
 #      - .:/app
+    networks:
+      - appnet
 
   mongodb:
+    container_name: mongodb-con
     image: mongo
     restart: always
     env_file:
       - ${COMPOSE_ENV_FILE}
-
     volumes:
       - mongodb_data:/data/db
       - ./mongodb-init.sh:/docker-entrypoint-initdb.d/mongodb-init.sh
     ports:
-      - 27017:27017
+      - 127.0.0.1:27017:27017
+    networks:
+      - appnet
 
 volumes:
   mongodb_data:
+
+networks:
+  appnet:
