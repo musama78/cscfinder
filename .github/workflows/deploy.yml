@@ -110,7 +110,7 @@ jobs:
 
 
   push-docker:
-    needs: deploy
+    needs: deploy-APP
 
     runs-on: self-hosted
     steps:
