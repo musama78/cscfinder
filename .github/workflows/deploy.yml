@@ -71,8 +71,8 @@ jobs:
       - name: Deploy nginx
         run: docker-compose -f docker-compose-nginx.yml up -d
 
-  deploy:
-    needs: build-docker
+  deploy-APP:
+    needs: deploy-nginx
 
     runs-on: self-hosted
 
