@@ -13,7 +13,7 @@ server {
       proxy_set_header X-Real-IP $remote_addr;
       proxy_set_header X-Forwarded-Host $host;
       proxy_set_header X-Forwarded-Proto https;
-      proxy_pass http://nextjsapp-con:3000;
+      proxy_pass http://nextjsapp:3000;
     }
 }
 
