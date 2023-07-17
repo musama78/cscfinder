@@ -20,7 +20,7 @@ env:
 
 
 jobs:
-  build-app:
+  code-checkout:
     runs-on: self-hosted
 
     steps:
@@ -41,7 +41,7 @@ jobs:
 
 
   build-docker:
-    needs: build-app
+    needs: code-checkout
 
     runs-on: self-hosted
 
