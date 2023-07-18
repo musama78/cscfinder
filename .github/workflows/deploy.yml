@@ -109,10 +109,10 @@ jobs:
 #          MONGODB_USERNAME=$MONGODB_USERNAME MONGODB_PASSWORD=$MONGODB_PASSWORD MONGODB_DATABASE=$MONGODB_DATABASE docker-compose up -d
 
 
-  push-docker:
-    needs: deploy-APP
+#  push-docker:
+#    needs: deploy-APP
 
-    runs-on: self-hosted
-    steps:
-      - name: Push Docker image
-        run: docker push muhammadusama7/cscfinder:latest
+#    runs-on: self-hosted
+#    steps:
+#      - name: Push Docker image
+#        run: docker push muhammadusama7/cscfinder:latest
