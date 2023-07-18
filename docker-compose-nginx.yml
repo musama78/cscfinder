@@ -10,12 +10,13 @@ services:
       - "443:443"
     volumes:
       - ./nextjs-nginx.conf:/etc/nginx/conf.d/nextjs-nginx.conf
+      - nginx-conf:/etc/nginx
     networks:
       - appnet
     restart: always
 
-#volumes:
-#  nginx-conf:
+volumes:
+  nginx-conf:
 
 networks:
   appnet:
